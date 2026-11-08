@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "xbow",
+  "version": "${version}",
+  "name": "Xbow",
+  "description": "Rail + TNT minecart + crossbow automation.",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.xbow.XbowClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
